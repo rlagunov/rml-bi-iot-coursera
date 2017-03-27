@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: rml-bi-iot-coursera
+  host: rml-bi-iot-coursera
+  disk_quota: 1024M
+  services:
+  - rml-bi-iot-coursera-cloudantNoSQLDB
+  - rml-bi-iot-coursera-iotf-service
